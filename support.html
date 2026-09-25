@@ -172,34 +172,30 @@
 
     <section class="hero">
       <h1>Support</h1>
-      <p>Need help with Mortgage Analyzer AI or the optional AI Advisor? This page covers the most common setup questions and gives you a direct support contact.</p>
+      <p>Need help with Mortgage Analyzer AI or the AI Advisor? This page covers the most common questions and gives you a direct support contact.</p>
       <a class="contact" href="mailto:ma-support@colemanfolks.com">ma-support@colemanfolks.com</a>
     </section>
 
     <section class="grid">
       <article class="panel">
-        <h2>Choose Apple Intelligence or OpenRouter</h2>
-        <p>AI Advisor can use Apple Intelligence on-device when available, or OpenRouter cloud models with your own API key.</p>
+        <h2>Getting started with the AI Advisor</h2>
+        <p>The AI Advisor runs on your device using Apple Intelligence. There is no account to create, no API key to enter, and no subscription.</p>
         <div class="steps">
           <div class="step">
-            <strong>1. Use Apple Intelligence if your device supports it</strong>
-            This is the simplest option. It runs on-device and does not require an account or API key.
+            <strong>1. Tap Ask AI</strong>
+            It is in the top-right corner of the Calculator, Chart and Amortization screens.
           </div>
           <div class="step">
-            <strong>2. Or create an OpenRouter account</strong>
-            Visit <a class="inline-link" href="https://openrouter.ai" target="_blank" rel="noopener noreferrer">openrouter.ai</a> and complete account setup.
+            <strong>2. Describe your loan in your own words</strong>
+            For example: &ldquo;$525K home, 10% down, 6.25% for 30 years&rdquo;. The calculator fills in as you go.
           </div>
           <div class="step">
-            <strong>3. Generate an OpenRouter API key</strong>
-            Open the API keys page in your OpenRouter dashboard, create a new key, and copy it right away.
+            <strong>3. Ask anything about it</strong>
+            Payments, payoff dates, PMI, DTI, LTV, what a refinance would change. Every figure it quotes is calculated by the app itself.
           </div>
           <div class="step">
-            <strong>4. Add billing or credits if OpenRouter requires it</strong>
-            Some models require available balance before requests will succeed.
-          </div>
-          <div class="step">
-            <strong>5. Open AI settings in Mortgage Analyzer AI</strong>
-            Choose Apple Intelligence or OpenRouter. If you use OpenRouter, paste the key and save it.
+            <strong>4. Try a &ldquo;what if&rdquo; without losing your loan</strong>
+            Ask &ldquo;what happens if the rate drops to 6%?&rdquo; and you get the comparison. Tap <strong>Apply this to my loan</strong> only if you want to keep it.
           </div>
         </div>
       </article>
@@ -208,16 +204,16 @@
         <h2>Important notes</h2>
         <div class="steps">
           <div class="step">
-            <strong>Your key is stored locally</strong>
-            Mortgage Analyzer AI saves the API key in your device Keychain. It is not sent to the app developer.
+            <strong>Nothing leaves your device</strong>
+            Your messages, your loan details and the answers stay on your device. They are not sent to us or to any third-party AI service, and the feature works offline.
+          </div>
+          <div class="step">
+            <strong>What the AI Advisor needs</strong>
+            The app requires iOS 26 or later. The AI Advisor also needs a device that supports Apple Intelligence &mdash; per <a class="inline-link" href="https://support.apple.com/en-us/121115" target="_blank" rel="noopener noreferrer">Apple&rsquo;s list</a>, iPhone 15 Pro, iPhone 15 Pro Max, iPhone Air, iPhone 16 or later, iPad mini (A17 Pro), or an iPad with M1 or later &mdash; with Apple Intelligence turned on in Settings &rarr; Apple Intelligence &amp; Siri. Everything else in the app works on any supported device.
           </div>
           <div class="step">
             <strong>AI responses are informational</strong>
             The AI Advisor can explain tradeoffs and scenarios, but it is not a substitute for licensed financial advice.
-          </div>
-          <div class="step">
-            <strong>OpenRouter issues are usually account- or key-related</strong>
-            If the AI feature stops working, confirm the key is valid and your OpenRouter account has access to the selected model.
           </div>
         </div>
       </article>
@@ -226,12 +222,32 @@
     <section class="faq-list">
       <article class="faq-item">
         <h3>Why am I seeing ads?</h3>
-        <p>Mortgage Analyzer AI is currently free to use and supported by ads.</p>
+        <p>Mortgage Analyzer AI is free, and the ads are what pay for it. They sit in a single banner at the bottom of the screen and never interrupt what you&rsquo;re doing.</p>
       </article>
 
       <article class="faq-item">
         <h3>How do I use the AI Advisor effectively?</h3>
         <p>Ask targeted questions tied to your current numbers, such as how much interest extra payments save, how an ARM reset changes affordability, or whether refinancing could reduce total cost.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>The AI asked me what a number meant. Why?</h3>
+        <p>If you type an amount without saying what it is &mdash; &ldquo;15 year 2.125% 10% down $365K&rdquo; &mdash; that $365,000 could be the purchase price, the loan, or the down payment. Rather than guess and get it wrong, the app applies everything it is sure of and asks about the one part it isn&rsquo;t. Tap an option, or just tell it: &ldquo;the 365 is the loan&rdquo;.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>I asked a &ldquo;what if&rdquo; and nothing changed. Is it broken?</h3>
+        <p>No &mdash; that is deliberate. Asking &ldquo;what happens if the rate drops to 6%?&rdquo; gets you the comparison without touching your loan, so you can explore freely. If you want to keep the change, tap <strong>Apply this to my loan</strong> under the answer.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>Why is my conversation empty when I reopen the app?</h3>
+        <p>Each time you open the app you start fresh &mdash; a new conversation and a clean calculator. To keep a loan, tap <strong>Save</strong> on the Calculator screen to store it as a .mortgage file, then <strong>Load</strong> it whenever you want it back. To start over without closing the app, use <strong>Settings &rarr; Reset Everything</strong>, which clears the calculator and the conversation but leaves your saved files alone.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3>How accurate are the AI Advisor&rsquo;s responses?</h3>
+        <p>Every figure it quotes &mdash; payments, balances, DTI, LTV, mortgage insurance &mdash; is calculated by the app itself, not by the AI. The advice and explanations around those numbers are general information only, not financial advice. Always verify important decisions with a qualified mortgage professional.</p>
       </article>
 
       <article class="faq-item">
@@ -241,7 +257,7 @@
 
       <article class="faq-item">
         <h3>What is the Canadian mortgage convention option?</h3>
-        <p>Canadian mortgages commonly use semi-annual compounding instead of monthly compounding. Turn that option on when you need Canadian-style calculations.</p>
+        <p>Canadian mortgages commonly use semi-annual compounding instead of monthly compounding. In the <strong>Mortgage Information</strong> section, set <strong>Convention</strong> to <strong>Canadian</strong>.</p>
       </article>
     </section>
 
